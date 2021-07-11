@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    box-shadow: 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.desc {
+    background-color: #D1891C;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #00669F;
+    font-size: 28px;
+    height: 45px;
+    color: #F3F3F3;
+    padding-left: 30px;
+}
+
+.fa-plus-circle {
+    position: fixed;
+    font-size: 40px;
+    color: #00669F;
+    right: 20px;
+    top: 300px;
+}
+
+.main-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.secciones {
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 420px;
+    margin-bottom: 30px;
+    box-shadow: 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.fa-heart {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.8);
+    font-size: 40px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.per-rel {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 70px;
+    top: 60px;
+    border-radius: 50%;
+}
+
+.fondo {
+    width: 270px;
+    height: 130px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+p {
+    margin-top: 0px;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ver-mas {
+    padding: 10px;
+    text-align: center;
+    background-color: #00669F;
+    color: white;
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #6ba0be;
+    color: rgb(12, 27, 236);
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #00669F;
+    padding: 0% 30px 0px 10px;
+    height: 60px;
+}
+
+.t-pie {
+    font-size: 9px;
+    color: white;
+}
+
+.git {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    right: 80px;
+}
+
+@media (max-width:480px) {
+    .git {
+        position: absolute;
+        width: 70px;
+        height: 20px;
+        right: 20px;
+    }
+}
