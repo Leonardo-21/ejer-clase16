@@ -1,20 +1,24 @@
 * {
     margin: 0%;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
+
+/*------START BODY-----*/
 
 body {
     background-color: white;
 }
 
-header {
-    box-shadow: 0 8px rgba(0, 0, 0, 0.8);
+.desc {
+    background-color: #1CD1B0;
+    font-size: 14px;
+    padding-left: 45px;
+    height: 3vh;
 }
 
-.desc {
-    background-color: #D1891C;
-    font-size: 14px;
-    padding-left: 30px;
+.home {
+    height: 53px;
 }
 
 .card {
@@ -22,9 +26,32 @@ header {
     align-items: center;
     background-color: #00669F;
     font-size: 28px;
-    height: 45px;
+    height: 10vh;
     color: #F3F3F3;
     padding-left: 30px;
+}
+
+.img-home:hover {
+    background-color: #00669F;
+}
+
+.img-home:link {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #001D2D;
+}
+
+li {
+    padding: 5px 15px;
+}
+
+a {
+    color: white;
 }
 
 .fa-plus-circle {
@@ -109,8 +136,12 @@ a:link {
 }
 
 a:hover {
-    background-color: #6ba0be;
-    color: rgb(12, 27, 236);
+    background-color: #050505;
+    color: rgb(226, 251, 0);
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 footer {
@@ -124,7 +155,7 @@ footer {
 }
 
 .t-pie {
-    font-size: 9px;
+    font-size: 18px;
     color: white;
 }
 
@@ -136,10 +167,19 @@ footer {
 }
 
 @media (max-width:480px) {
+    .t-pie {
+        font-size: 9px;
+    }
     .git {
         position: absolute;
         width: 70px;
         height: 20px;
         right: 20px;
+    }
+}
+
+@media (max-width:653px) {
+    .t-pie {
+        font-size: 12px;
     }
 }
