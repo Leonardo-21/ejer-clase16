@@ -32,11 +32,7 @@ body {
 
 main {
     height: 77vh;
-<<<<<<< HEAD
     background-image: url("../img/queen-2.svg");
-=======
-    background-image: url("/img/queen-2.svg");
->>>>>>> a6884788a66a90a5cda1f6efa3189cac616d73e9
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
